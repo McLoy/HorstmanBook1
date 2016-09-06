@@ -1,0 +1,13 @@
+package Chapter7Ex7_6;
+
+import java.awt.*;
+
+public class ListFonts {
+    public static void main(String[] args) {
+
+        String[] fontNames = GraphicsEnvironment.getLocalGraphicsEnvironment().getAvailableFontFamilyNames();
+        for (int i = 0; i < fontNames.length; i++)
+            System.out.println(fontNames[i]);
+
+    }
+}
