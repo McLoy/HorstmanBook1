@@ -7,6 +7,7 @@ public class SimpleFrameTest {
 
         SimpleFrame frame = new SimpleFrame();
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        //frame.setUndecorated(true);
         frame.setVisible(true);
     }
 }
@@ -16,6 +17,6 @@ class SimpleFrame extends JFrame{
         setSize(DEFAULT_WIDTH, DEFAULT_HEIGHT);
     }
 
-    public static final int DEFAULT_WIDTH = 300;
-    public static final int DEFAULT_HEIGHT = 300;
+    public static final int DEFAULT_WIDTH = 800;
+    public static final int DEFAULT_HEIGHT = 600;
 }
