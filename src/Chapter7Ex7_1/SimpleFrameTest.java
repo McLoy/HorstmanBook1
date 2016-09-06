@@ -8,6 +8,7 @@ public class SimpleFrameTest {
         SimpleFrame frame = new SimpleFrame();
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         //frame.setUndecorated(true);
+        //frame.setResizable(false);
         frame.setVisible(true);
     }
 }
