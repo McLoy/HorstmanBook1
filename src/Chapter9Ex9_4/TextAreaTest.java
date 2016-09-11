@@ -28,7 +28,7 @@ class TextAreaFrame extends JFrame{
         //Добавление кнопки, предназначенной для включения
         //текста в текстовую область
 
-        JButton insertButton = new JButton("Insert");
+        JButton  insertButton = new JButton("Insert");
         buttonPanel.add(insertButton);
         insertButton.addActionListener(new ActionListener(){
             public void actionPerformed(ActionEvent event){
