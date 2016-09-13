@@ -49,7 +49,7 @@ class ToolBarFrame extends JFrame{
         add(bar, BorderLayout.NORTH);
 
         //Заполнение меню
-        JMenu menu = new JMenu();
+        JMenu menu = new JMenu("Color");
         menu.add(yellowAction);
         menu.add(blueAction);
         menu.add(redAction);
@@ -77,7 +77,7 @@ class ToolBarFrame extends JFrame{
         }
 
         public void actionPerformed(ActionEvent event){
-            Color c = (Color)getValue("Color");
+            Color c = (Color) getValue("Color");
             panel.setBackground(c);
         }
     }
