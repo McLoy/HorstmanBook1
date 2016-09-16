@@ -14,6 +14,7 @@ public class BoxlayoutText {
 
 /**
  * Фрейм, использующий диспетчер Boxlayout для размещения
+ * --------------------
  * компонентов
  */
 class BoxLayoutFrame extends JFrame{
