@@ -19,7 +19,7 @@ public class BoxlayoutText {
 class BoxLayoutFrame extends JFrame{
 
     public BoxLayoutFrame(){
-        setTitle("BoxLayoutTest");;
+        setTitle("BoxLayoutTest");
         setSize(DEFAULT_WIDTH, DEFAULT_HEIGHT);
 
         //Создание верхнего горизонтального блока
